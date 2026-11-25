@@ -4,7 +4,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const ENTRY =
-  "At 6 AM on a Saturday my alarm went off like it was late for a meeting that doesn't exist — the most punctual thing I own, and it's punctual for the wrong day.";
+  "Dear snooze button: you've stolen 9 minutes from me 4,000 times — 25 full days — and I spent all of it dreaming I was at work, which my boss Linda calls my best attendance yet.";
 
 mkdirSync("/output", { recursive: true });
 writeFileSync("/output/entry.txt", ENTRY, "utf8");
